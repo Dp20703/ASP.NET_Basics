@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "P-1", ".", "{D753B3C4-B478-4E04-8918-84758BEB0326}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/P-1"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\Code Playground\WPD-I\Unit-1\P-1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\P-1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/P-1"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\Desktop\Code Playground\WPD-I\Unit-1\P-1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\P-1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54429"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D753B3C4-B478-4E04-8918-84758BEB0326}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D753B3C4-B478-4E04-8918-84758BEB0326}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

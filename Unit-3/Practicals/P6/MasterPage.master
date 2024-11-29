@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master Page</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class='wrapper'>
+        <div class='header'>
+            <center>
+                <h2>
+                    Gujarat Unvieristy
+                </h2>
+            </center>
+        </div>
+        <div class='menu'>
+            <asp:Menu ID="Menu1" runat="server" Height="25px"
+                Width="128px" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/contact.aspx" Text="Contact" Value="Contact"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/contact.aspx" Text="Category" Value="Category"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/about.aspx" Text="About" Value="About"></asp:MenuItem>
+                </Items>
+                
+                <StaticItemTemplate>
+                    <%# Eval("Text") %>
+                </StaticItemTemplate>
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+            <br />
+        </div>
+        <div class='sidebar'>
+            <asp:TreeView ID="TreeView1" runat="server" ShowLines="True" Height="55px" 
+                Width="535px">
+                <Nodes>
+                    <asp:TreeNode Text="Home" Value="Home" NavigateUrl="~/home.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="contact" Value="Login" NavigateUrl="~/contact.aspx"></asp:TreeNode>
+                    <asp:TreeNode Text="about" Value="Registration" NavigateUrl="~/about.aspx"></asp:TreeNode>
+                      <asp:TreeNode Text="category" Value="Registration" 
+                        NavigateUrl="~/category.aspx"></asp:TreeNode>
+                </Nodes>
+            </asp:TreeView>
+        </div>
+        <div class='content1'>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class='header'>
+            copywrite@darshan.com
+        </div>
+    </div>
+    </form>
+</body>
+</html>

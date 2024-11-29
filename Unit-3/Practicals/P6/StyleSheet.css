@@ -1,0 +1,73 @@
+﻿body, div, p
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: rgb(220,210,200);
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.wrapper
+{
+	width: 100%;
+	margin: auto;
+}
+.content
+{
+	width: 100%;
+	background-color: rgb(212,212,212);
+	border: 2px solid rgb(224,224,224);
+	margin-top: 1;
+	margin-bottom: 1px;
+	height: 450px;
+}
+
+.sidebar
+{
+	width: 18%;
+	background-color: rgb(212,212,212);
+	border: 2px solid rgb(224,224,224);
+	float: left;
+	margin-top: 1;
+	margin-bottom: 1px;
+	height: 430px;
+}
+.content1
+{
+	width: 78%;
+	background-color: rgb(212,212,212);
+	border: 2px solid rgb(224,224,224);
+	margin-top: 1;
+	margin-bottom: 1px;
+	height: 430px;
+}
+.menu
+{
+	background-color: rgb(10,110,178);
+	width: 100%;
+	margin: 0px 0px 10px;
+	padding: 0px;
+	height: 40px;
+	color: rgb(243,243,243);
+}
+.menu1
+{
+	display: block;
+	font-size: 13px;
+	color: White;
+	font-weight: bold;
+	padding: 8px 20px;
+	text-align: center;
+	margin-right: 15px;
+}
+.header
+{
+	height: 40px;
+	background-color: rgb(10,110,178);
+	color: rgb(255,255,255);
+padding-right:5px;
+}
